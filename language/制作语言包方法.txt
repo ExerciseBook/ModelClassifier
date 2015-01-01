@@ -1,0 +1,16 @@
+1,首先复制一份备份不解释
+2,把名字改了
+3,打开它把所有等于号后面的东西翻译过去你的语言
+	注意一下几个项目
+		Language.Name 		[语言名字，当地语言名字，如，"简体中文"，"English"]
+		Language.EnglishName 	[那个语言的英文名字]
+		Language.Version 	[语言的版本]
+		Application.Version 	[不用管，这个是程序的版本]
+		Languageby		[语言文件的作者]
+4,也许有一些人闲的无聊把编码改成非Ansi以外的东西，所以要注意，本程序只能识别Ansi编码。
+5,把你的语言文件加入到 ..\setting.ini 文件。
+6,换行加入你的语言的文件的名字,不包括扩展名
+7,把第二行的数字加一
+8，第一行的含义是当前语言
+That's all
+9，如果想让你的语言加入官方语言文件，请将你的语言文件发给 HML@umtam.tk [Haqi Model Language]
